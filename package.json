@@ -1,0 +1,23 @@
+{
+  "name": "highlight-server",
+  "version": "1.0.0",
+  "description": "Super simple server to highlight code. Used temporarily until highlight.kt is stable.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogbin/highlight-server.git"
+  },
+  "author": "Till Kottmann <me@deletescape.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogbin/highlight-server/issues"
+  },
+  "homepage": "https://github.com/dogbin/highlight-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "highlight.js": "^9.15.10"
+  }
+}
